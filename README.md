@@ -1,6 +1,6 @@
 # Simulink Viewer
 
-Simulink Viewer is (Advanced Computer Programming - CSE231s) project that allows users to read and visualize Simulink files using a JavaFX-based application. The project consists of four main classes: SimulinkParser, Block, Line, and Branch.
+Simulink Viewer is (Advanced Computer Programming - CSE231s) project that allows users to read and visualize Simulink files using a JavaFX-based application. The project consists of five main classes: App, MDLFileExtractor, Block and Line.
 
 ## How to Run the Simulink Viewer Project
 To run the Simulink Viewer project, follow these steps:
@@ -26,11 +26,7 @@ Responsible for extracting Simulink blocks from an MDL file and creating corresp
 
 Represents a Simulink block within the Simulink Viewer application. It encapsulates properties such as ID, type, number of ports, position, and graphical elements like rectangles, text, and icons. The class provides methods to set and retrieve block properties, calculate port positions, and create graphical representations of the block. It plays a crucial role in visualizing Simulink blocks and their associated information on the viewer's interface.
 
-### 4. Branch Class
-
-The Branch class represents a branch in Simulink. It contains properties such as Z-order, points, and destination block. Methods are provided to access and retrieve these properties.
-
-### 5. Lines class
+### 4. Lines class
 
 draws lines/arrows between blocks. It reads line info, determines start/end points, and draws the lines. It supports straight arrows and branched lines using "Arrow" and "Branch" classes.
 
