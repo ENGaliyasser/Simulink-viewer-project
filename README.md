@@ -1,6 +1,6 @@
 # Simulink Viewer
 
-Simulink Viewer is (Advanced Computer Programming - CSE231s) project that allows users to read and visualize Simulink files using a JavaFX-based application. The project consists of five main classes: App, MDLFileExtractor, Block and Line.
+Simulink Viewer is (Advanced Computer Programming - CSE231s) project that allows users to read and visualize Simulink files using a JavaFX-based application. The project consists of four main classes: App, MDLFileExtractor, Block and Lines.
 
 ## How to Run the Simulink Viewer Project
 To run the Simulink Viewer project, follow these steps:
